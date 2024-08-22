@@ -20,6 +20,8 @@ set fileformat=unix
 
 " UI Config
 " ---------
-" A marked column to prevent going too far, color defined below 
+" A marked column to prevent going too far, color defined below
 setlocal colorcolumn=90
 highlight ColorColumn ctermbg=235
+
+setlocal commentstring=//\ %s
